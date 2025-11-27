@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: ijfbzDTN4CbE7Sr-6ubWzy_t1vH4OtU1doNCLssVz-4
+langcode: es
+uuid: f861e41d-ccfd-4008-baed-e9c100dbd99e
+name: Cookeando
+mail: olaya.martinez@plexus.es
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node/2
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: es
+mail_notification: null

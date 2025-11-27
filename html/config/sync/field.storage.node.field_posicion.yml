@@ -1,0 +1,33 @@
+uuid: d4c2c7e7-2bb5-4e5a-8a23-d8f1bf1e0c11
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_posicion
+field_name: field_posicion
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: home
+      label: Home
+    -
+      value: sobre_mi
+      label: 'Sobre mí'
+    -
+      value: contacto
+      label: Contacto
+    -
+      value: area_privada
+      label: 'Área privada'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

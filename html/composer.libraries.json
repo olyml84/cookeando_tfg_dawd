@@ -1,0 +1,54 @@
+{
+    "require": {
+      "jstree/jstree": "*",
+      "select2/select2": "*",
+      "components/jqueryui": "1.13.2"
+    },
+    "repositories": {
+      "jstree": {
+        "type": "package",
+        "package": {
+          "name": "jstree/jstree",
+          "version": "3.3.17",
+          "type": "drupal-library",
+          "extra": {
+            "installer-name": "jstree"
+          },
+          "dist": {
+            "url": "https://github.com/vakata/jstree/archive/refs/heads/master.zip",
+            "type": "zip"
+          }
+        }
+      },
+      "select2.select2": {
+        "type": "package",
+        "package": {
+          "name": "select2/select2",
+          "version": "4.0.13",
+          "type": "drupal-library",
+          "extra": {
+            "installer-name": "select2"
+          },
+          "dist": {
+            "url": "https://github.com/select2/select2/archive/4.0.13.zip",
+            "type": "zip"
+          }
+        }
+      },
+      "jqueryui": {
+        "type": "package",
+        "package": {
+          "name": "components/jqueryui",
+          "version": "1.13.2",
+          "type": "drupal-library",
+          "extra": {
+            "installer-name": "jqueryui"
+          },
+          "dist": {
+            "url": "https://jqueryui.com/resources/download/jquery-ui-1.13.2.zip",
+            "type": "zip"
+          }
+        }
+      }
+    }
+  }

@@ -1,0 +1,47 @@
+uuid: 5e3dd985-f90a-4657-be23-c25caed859be
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.logotipos.field_imagen_principal
+    - field.field.node.logotipos.field_vinculo
+    - node.type.logotipos
+  module:
+    - image
+    - link
+    - user
+id: node.logotipos.default
+targetEntityType: node
+bundle: logotipos
+mode: default
+content:
+  field_imagen_principal:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_vinculo:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

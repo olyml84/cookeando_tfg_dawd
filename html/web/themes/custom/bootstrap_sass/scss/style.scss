@@ -1,0 +1,15 @@
+/*
+Theme Name: Bootstrap 4 Sass
+Description: Bootstrap 4 with Sass
+*/
+
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+//@import "../node_modules/bootstrap/scss/functions";
+
+// 2. Include any default variable overrides here
+// variables
+@import "variables";
+// typography
+@import "typography";
+// css
+@import "base";

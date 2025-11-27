@@ -1,0 +1,19 @@
+uuid: e7cc9dc2-263a-4282-b8d6-e7c80cb77ff6
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_dificultad
+    - node.type.cursos
+id: node.cursos.field_dificultad
+field_name: field_dificultad
+entity_type: node
+bundle: cursos
+label: Dificultad
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

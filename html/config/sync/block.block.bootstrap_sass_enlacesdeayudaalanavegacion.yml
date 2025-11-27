@@ -1,0 +1,20 @@
+uuid: 3faf098a-4613-4e3a-856c-1599060b381f
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bootstrap_sass
+id: bootstrap_sass_enlacesdeayudaalanavegacion
+theme: bootstrap_sass
+region: breadcrumb
+weight: -7
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: 'Enlaces de ayuda a la navegación'
+  label_display: '0'
+  provider: system
+visibility: {  }

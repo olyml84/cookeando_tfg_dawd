@@ -1,0 +1,14 @@
+uuid: d6821312-926e-4118-a3d6-07fc609178b1
+langcode: es
+status: true
+dependencies:
+  config:
+    - user.role.usuario_acreditado
+  module:
+    - user
+id: user_remove_role_action.usuario_acreditado
+label: 'Elimina el rol Usuario acreditado al(los) usuario(s) seleccionado(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: usuario_acreditado

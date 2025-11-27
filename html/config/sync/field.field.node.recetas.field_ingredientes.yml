@@ -1,0 +1,22 @@
+uuid: 04ea5f5d-9b5b-4445-9c06-23c742f094bc
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ingredientes
+    - node.type.recetas
+  module:
+    - text
+id: node.recetas.field_ingredientes
+field_name: field_ingredientes
+entity_type: node
+bundle: recetas
+label: Ingredientes
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

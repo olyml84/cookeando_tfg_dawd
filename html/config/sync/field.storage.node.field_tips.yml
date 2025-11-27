@@ -1,0 +1,19 @@
+uuid: f89c9cb0-aa3e-4346-bc37-bd6e6b28df23
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_tips
+field_name: field_tips
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

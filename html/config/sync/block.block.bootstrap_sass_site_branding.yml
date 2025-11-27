@@ -1,0 +1,25 @@
+uuid: dd22b7d7-87c2-4e11-90e6-8560d6ec59ac
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bootstrap_sass
+_core:
+  default_config_hash: J1Hfsrk87t9TrZowA5N6UJsdcvc4LNuwe8vwKm6vHSA
+id: bootstrap_sass_site_branding
+theme: bootstrap_sass
+region: header
+weight: -7
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Marca del sitio'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

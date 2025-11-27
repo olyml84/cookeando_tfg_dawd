@@ -1,0 +1,21 @@
+uuid: 22bbf780-d10e-46c4-9bca-9118a6ea04b7
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_video_youtube
+    - node.type.cursos
+  module:
+    - youtube
+id: node.cursos.field_video_youtube
+field_name: field_video_youtube
+entity_type: node
+bundle: cursos
+label: 'Vídeo Youtube'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: youtube

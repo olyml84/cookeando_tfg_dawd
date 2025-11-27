@@ -1,0 +1,14 @@
+uuid: 73a973a9-1256-4df6-bf38-311c0abf4eab
+langcode: es
+status: true
+dependencies: {  }
+name: rec_cur
+label: rec_cur_450x250
+effects:
+  2e52045a-93c9-4074-a77a-21b7877f2b19:
+    uuid: 2e52045a-93c9-4074-a77a-21b7877f2b19
+    id: image_resize
+    weight: 1
+    data:
+      width: 450
+      height: 250

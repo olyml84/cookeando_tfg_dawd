@@ -1,0 +1,19 @@
+uuid: 3895f356-cb7f-4bcb-8429-3b68b03ba20a
+langcode: es
+status: true
+dependencies:
+  module:
+    - link
+    - node
+id: node.field_vinculo
+field_name: field_vinculo
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

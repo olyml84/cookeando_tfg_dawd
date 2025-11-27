@@ -1,0 +1,14 @@
+uuid: 6dcb43e5-ef52-4b16-a1e4-8a7af659062f
+langcode: es
+status: true
+dependencies:
+  config:
+    - user.role.usuario_anonimo
+  module:
+    - user
+id: user_remove_role_action.usuario_anonimo
+label: 'Elimina el rol Usuario anónimo al(los) usuario(s) seleccionado(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: usuario_anonimo

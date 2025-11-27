@@ -1,0 +1,11 @@
+uuid: 27180821-613b-42c7-8706-b79fae6217b3
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.recetas
+id: node.recetas
+target_entity_type_id: node
+target_bundle: recetas
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,23 @@
+uuid: b79411ee-7ef8-4d2e-a73c-c7fd31a11345
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_prioridad
+    - node.type.slider
+id: node.slider.field_prioridad
+field_name: field_prioridad
+entity_type: node
+bundle: slider
+label: Prioridad
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

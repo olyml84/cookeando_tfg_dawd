@@ -1,0 +1,19 @@
+uuid: d4bdcfae-695f-4067-a787-2e1435ee1712
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_comensales
+    - node.type.recetas
+id: node.recetas.field_comensales
+field_name: field_comensales
+entity_type: node
+bundle: recetas
+label: Comensales
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

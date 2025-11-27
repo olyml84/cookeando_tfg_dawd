@@ -1,0 +1,25 @@
+uuid: 5de4c313-31da-402a-94e0-a48c5813a0b7
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:23451bfd-f9df-463b-8afb-65c6f3c08695'
+  module:
+    - block_content
+  theme:
+    - bootstrap_sass
+id: bootstrap_sass_rrssfooter
+theme: bootstrap_sass
+region: footer_first
+weight: -6
+provider: null
+plugin: 'block_content:23451bfd-f9df-463b-8afb-65c6f3c08695'
+settings:
+  id: 'block_content:23451bfd-f9df-463b-8afb-65c6f3c08695'
+  label: Síguenos
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

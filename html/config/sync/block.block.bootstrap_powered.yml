@@ -1,0 +1,22 @@
+uuid: 81d09f57-33ed-4df8-a4b2-38a8b12f9884
+langcode: es
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - bootstrap
+_core:
+  default_config_hash: Sq4yYlo6bDXG7m-p9Tpv2IwdvWjxwbjssiZZmpscKeo
+id: bootstrap_powered
+theme: bootstrap
+region: footer_fifth
+weight: -7
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Funciona con Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

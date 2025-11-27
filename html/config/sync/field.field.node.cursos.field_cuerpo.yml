@@ -1,0 +1,24 @@
+uuid: 72aa2860-e780-43f1-9fd0-c9ae635a8098
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cuerpo
+    - node.type.cursos
+  module:
+    - text
+id: node.cursos.field_cuerpo
+field_name: field_cuerpo
+entity_type: node
+bundle: cursos
+label: Cuerpo
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

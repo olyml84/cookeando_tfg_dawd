@@ -1,0 +1,13 @@
+uuid: 98110b8d-24d2-41cd-a29b-8ffc70713f1f
+langcode: es
+status: true
+dependencies: {  }
+label: General
+name: general
+group: General
+description: General
+requireAllConditions: false
+disabled: false
+conditions: {  }
+reactions: {  }
+weight: 0

@@ -1,0 +1,8 @@
+uuid: ca328fbd-cec3-434f-b23c-0e4dc8ed8a6b
+langcode: es
+status: true
+dependencies: {  }
+id: recetas
+label: Recetas
+description: Recetas
+locked: false

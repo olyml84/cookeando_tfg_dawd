@@ -1,0 +1,53 @@
+@mixin button-styles-hover($bg-color, $text-color, $border-color: null) {
+    text-decoration: none;
+   
+    &:hover {
+      background-color: $bg-color !important;
+      color: $text-color;
+      border: if($border-color, 2px solid $border-color, 2px solid $bg-color);
+    }
+  }
+
+  @mixin desktop {
+    @media (min-width: 1024px) {
+        @content;
+    }
+}
+ 
+// Mixin para tablet
+@mixin tablet {
+    @media (min-width: 768px) and (max-width: 1023px) {
+        @content;
+    }
+}
+ 
+@mixin tablet-mobile {
+    @media (max-width: 1023px) {
+        @content;
+    }
+}
+ 
+// Mixin para mobile
+@mixin mobile {
+    @media (max-width: 767px) {
+        @content;
+    }
+}  
+
+
+.seccion-izquierda {
+    grid-area: image;
+    img {
+        object-fit: cover;
+        @include desktop {
+            max-height: 460px;
+        }
+        @include tablet {
+            height: 310px;
+        }
+        @include mobile {
+            height: 250px;
+        }
+        width: 100%;
+    }
+}

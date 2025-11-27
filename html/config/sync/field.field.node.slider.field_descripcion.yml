@@ -1,0 +1,24 @@
+uuid: ae2d38bb-a6bc-46c4-911e-3ec41e9521d8
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_descripcion
+    - node.type.slider
+  module:
+    - text
+id: node.slider.field_descripcion
+field_name: field_descripcion
+entity_type: node
+bundle: slider
+label: Descripción
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

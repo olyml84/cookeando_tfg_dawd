@@ -1,0 +1,14 @@
+uuid: 457e92bb-a232-4fa6-8a66-68279e39a896
+langcode: es
+status: true
+dependencies:
+  config:
+    - user.role.usuario_acreditado
+  module:
+    - user
+id: user_add_role_action.usuario_acreditado
+label: 'Añade el rol Usuario acreditado al(los) usuario(s) seleccionado(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: usuario_acreditado

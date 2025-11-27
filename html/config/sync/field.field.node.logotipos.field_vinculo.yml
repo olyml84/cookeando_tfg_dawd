@@ -1,0 +1,23 @@
+uuid: b8b84602-ae29-4a53-ad72-7e27c8f60b94
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_vinculo
+    - node.type.logotipos
+  module:
+    - link
+id: node.logotipos.field_vinculo
+field_name: field_vinculo
+entity_type: node
+bundle: logotipos
+label: Vínculo
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

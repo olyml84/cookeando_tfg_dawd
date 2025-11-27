@@ -1,0 +1,19 @@
+uuid: 2d635025-72f8-488a-9ebb-f5c71a453515
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_ingredientes
+field_name: field_ingredientes
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

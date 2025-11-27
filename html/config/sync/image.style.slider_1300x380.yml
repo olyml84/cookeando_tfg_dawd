@@ -1,0 +1,14 @@
+uuid: 8c6298e3-bad7-40dc-8001-aa36b9734a08
+langcode: es
+status: true
+dependencies: {  }
+name: slider_1300x380
+label: slider_1280x380
+effects:
+  eeea416e-02e3-4f3b-a4e3-e80d3e377002:
+    uuid: eeea416e-02e3-4f3b-a4e3-e80d3e377002
+    id: image_resize
+    weight: 1
+    data:
+      width: 1280
+      height: 380

@@ -1,0 +1,22 @@
+uuid: 8842618a-a357-4c68-9684-73531ef35ea2
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nota
+    - node.type.recetas
+  module:
+    - text
+id: node.recetas.field_nota
+field_name: field_nota
+entity_type: node
+bundle: recetas
+label: Nota
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

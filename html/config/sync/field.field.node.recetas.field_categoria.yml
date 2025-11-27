@@ -1,0 +1,21 @@
+uuid: 0750a287-2b8b-41c2-a619-40461ad13b33
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_categoria
+    - node.type.recetas
+  module:
+    - options
+id: node.recetas.field_categoria
+field_name: field_categoria
+entity_type: node
+bundle: recetas
+label: Categoría
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

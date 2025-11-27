@@ -1,0 +1,10 @@
+uuid: ac9b2f23-f283-4aa0-a7af-f109085246a1
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: I6QslJrnaSjT6Wg4T1KRmtebhDJribTPkBE2bb9hS58
+id: mobile
+label: Móvil
+base_class: col
+weight: -8

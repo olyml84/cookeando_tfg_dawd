@@ -1,0 +1,433 @@
+uuid: 4e12cfac-dce2-4e91-b1a1-3320e1ab6fd7
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.recetas.field_categoria
+    - field.field.node.recetas.field_comensales
+    - field.field.node.recetas.field_cuerpo
+    - field.field.node.recetas.field_dificultad
+    - field.field.node.recetas.field_imagen_principal
+    - field.field.node.recetas.field_imagenes
+    - field.field.node.recetas.field_ingredientes
+    - field.field.node.recetas.field_nota
+    - field.field.node.recetas.field_tiempo
+    - field.field.node.recetas.field_tips
+    - node.type.recetas
+  module:
+    - bootstrap_layout_builder
+    - image
+    - layout_builder
+    - options
+    - text
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: false
+    sections:
+      -
+        layout_id: 'bootstrap_layout_builder:blb_col_2'
+        layout_settings:
+          label: ''
+          container_wrapper_classes: ''
+          container_wrapper_attributes: null
+          container_wrapper:
+            bootstrap_styles:
+              background:
+                background_type: null
+              background_color:
+                class: null
+              background_media:
+                image:
+                  media_id: null
+                video:
+                  media_id: null
+                background_options:
+                  background_position: center
+                  background_repeat: no-repeat
+                  background_attachment: not_fixed
+                  background_size: cover
+              text_color:
+                class: null
+              padding:
+                class: _none
+              padding_left:
+                class: _none
+              padding_top:
+                class: _none
+              padding_right:
+                class: _none
+              padding_bottom:
+                class: _none
+              margin:
+                class: _none
+              margin_left:
+                class: _none
+              margin_top:
+                class: _none
+              margin_right:
+                class: _none
+              margin_bottom:
+                class: _none
+              border:
+                border_style:
+                  class: null
+                border_width:
+                  class: _none
+                border_color:
+                  class: null
+                rounded_corners:
+                  class: _none
+                border_left_style:
+                  class: null
+                border_left_width:
+                  class: _none
+                border_left_color:
+                  class: null
+                border_top_style:
+                  class: null
+                border_top_width:
+                  class: _none
+                border_top_color:
+                  class: null
+                border_right_style:
+                  class: null
+                border_right_width:
+                  class: _none
+                border_right_color:
+                  class: null
+                border_bottom_style:
+                  class: null
+                border_bottom_width:
+                  class: _none
+                border_bottom_color:
+                  class: null
+                rounded_corner_top_left:
+                  class: _none
+                rounded_corner_top_right:
+                  class: _none
+                rounded_corner_bottom_left:
+                  class: _none
+                rounded_corner_bottom_right:
+                  class: _none
+              scroll_effects:
+                class: null
+              text_alignment:
+                class: null
+              box_shadow:
+                class: null
+          container_wrapper_bg_color_class: ''
+          container_wrapper_bg_media: null
+          container: container
+          section_classes: ''
+          section_attributes: null
+          regions_classes:
+            blb_region_col_1: ''
+            blb_region_col_2: ''
+          regions_attributes:
+            blb_region_col_1: null
+            blb_region_col_2: null
+          breakpoints:
+            desktop: blb_col_6_6
+            tablet: blb_col_6_6
+            mobile: blb_col_12
+          layout_regions_classes:
+            blb_region_col_1:
+              - col-lg-6
+              - col-md-6
+              - col-12
+            blb_region_col_2:
+              - col-lg-6
+              - col-md-6
+              - col-12
+          remove_gutters: '0'
+          context_mapping: {  }
+        components:
+          adb682d3-652c-4eee-9ea6-a0f7da185740:
+            uuid: adb682d3-652c-4eee-9ea6-a0f7da185740
+            region: blb_region_col_1
+            configuration:
+              id: 'field_block:node:recetas:field_imagen_principal'
+              label: 'Imagen principal'
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: image
+                label: hidden
+                settings:
+                  image_link: ''
+                  image_style: rec_cur
+                  image_loading:
+                    attribute: lazy
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+          baa99308-2378-42aa-b7dd-21dff7e0e664:
+            uuid: baa99308-2378-42aa-b7dd-21dff7e0e664
+            region: blb_region_col_2
+            configuration:
+              id: 'field_block:node:recetas:field_nota'
+              label: Nota
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: text_trimmed
+                label: hidden
+                settings:
+                  trim_length: 255
+                third_party_settings: {  }
+            weight: 6
+            additional: {  }
+          7481944c-08a6-4714-8dce-96ddce4dff67:
+            uuid: 7481944c-08a6-4714-8dce-96ddce4dff67
+            region: blb_region_col_2
+            configuration:
+              id: 'field_block:node:recetas:field_cuerpo'
+              label: 'Cómo hacer...'
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: text_default
+                label: hidden
+                settings: {  }
+                third_party_settings: {  }
+            weight: 7
+            additional: {  }
+          13d0d4a8-0b37-4979-a889-3b8373680159:
+            uuid: 13d0d4a8-0b37-4979-a889-3b8373680159
+            region: blb_region_col_2
+            configuration:
+              id: 'field_block:node:recetas:field_tips'
+              label: 'Tips "Cookeando"'
+              label_display: visible
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: text_default
+                label: hidden
+                settings: {  }
+                third_party_settings: {  }
+            weight: 8
+            additional: {  }
+          26ffd18e-3ac8-4486-a64f-b2b0c388eb81:
+            uuid: 26ffd18e-3ac8-4486-a64f-b2b0c388eb81
+            region: blb_region_col_1
+            configuration:
+              id: 'field_block:node:recetas:field_imagenes'
+              label: Imágenes
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: image
+                label: hidden
+                settings:
+                  image_link: ''
+                  image_style: thumbnail
+                  image_loading:
+                    attribute: lazy
+                third_party_settings: {  }
+            weight: 1
+            additional: {  }
+          abbc36d8-fb51-497b-a22a-e48d67576922:
+            uuid: abbc36d8-fb51-497b-a22a-e48d67576922
+            region: blb_region_col_1
+            configuration:
+              id: 'field_block:node:recetas:field_ingredientes'
+              label: Ingredientes
+              label_display: visible
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: text_default
+                label: hidden
+                settings: {  }
+                third_party_settings: {  }
+            weight: 2
+            additional: {  }
+          d442258f-3869-48d5-84d5-6edfff91fe6f:
+            uuid: d442258f-3869-48d5-84d5-6edfff91fe6f
+            region: blb_region_col_2
+            configuration:
+              id: 'field_block:node:recetas:field_tiempo'
+              label: Tiempo
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: string
+                label: visually_hidden
+                settings:
+                  link_to_entity: false
+                third_party_settings: {  }
+            weight: 4
+            additional: {  }
+          f807ece3-6542-40af-8cc2-1c461028b369:
+            uuid: f807ece3-6542-40af-8cc2-1c461028b369
+            region: blb_region_col_2
+            configuration:
+              id: 'field_block:node:recetas:field_dificultad'
+              label: Dificultad
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: string
+                label: visually_hidden
+                settings:
+                  link_to_entity: false
+                third_party_settings: {  }
+            weight: 5
+            additional: {  }
+          ed897952-c2c4-4332-be10-702f033cbb6a:
+            uuid: ed897952-c2c4-4332-be10-702f033cbb6a
+            region: blb_region_col_2
+            configuration:
+              id: 'field_block:node:recetas:title'
+              label: Título
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: string
+                label: hidden
+                settings:
+                  link_to_entity: false
+                third_party_settings: {  }
+            weight: 1
+            additional: {  }
+          90e10a55-286c-43bf-8495-f6de22668bde:
+            uuid: 90e10a55-286c-43bf-8495-f6de22668bde
+            region: blb_region_col_2
+            configuration:
+              id: 'field_block:node:recetas:field_comensales'
+              label: Comensales
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: string
+                label: visually_hidden
+                settings:
+                  link_to_entity: false
+                third_party_settings: {  }
+            weight: 3
+            additional: {  }
+        third_party_settings: {  }
+id: node.recetas.default
+targetEntityType: node
+bundle: recetas
+mode: default
+content:
+  field_categoria:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 110
+    region: blb_region_col_1
+  field_comensales:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_cuerpo:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_dificultad:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 106
+    region: content
+  field_imagen_principal:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 109
+    region: content
+  field_imagenes:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 108
+    region: content
+  field_ingredientes:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_nota:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 107
+    region: content
+  field_tiempo:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  field_tips:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

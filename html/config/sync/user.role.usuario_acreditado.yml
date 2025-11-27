@@ -1,0 +1,9 @@
+uuid: cd92b1ce-a94a-4a75-9522-51993cdb1988
+langcode: es
+status: true
+dependencies: {  }
+id: usuario_acreditado
+label: 'Usuario acreditado'
+weight: 5
+is_admin: false
+permissions: {  }

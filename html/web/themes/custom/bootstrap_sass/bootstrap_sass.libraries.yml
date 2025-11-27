@@ -1,0 +1,11 @@
+global-styling:
+  version: VERSION
+  js:
+    asset/js/app.js: {}
+  css:
+    component:
+      css/style.css: {}
+      asset/css/style.css: {}
+  dependencies:
+    - core/jquery
+    - core/drupal

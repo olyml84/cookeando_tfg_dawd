@@ -1,0 +1,53 @@
+# IDEs
+.idea/
+.vscode/
+.DS_Store
+html/web/.DS_Store
+html/web/sites/.DS_Store
+
+#vendor
+html/vendor/
+
+# themes
+html/web/themes/contrib/bootstrap/subthemes/*/asset/css/
+html/web/themes/contrib/bootstrap/subthemes/*/asset/js/
+html/web/themes/contrib/bootstrap/subthemes/*/asset/images/
+html/web/themes/contrib/bootstrap/subthemes/*/asset/fonts/
+html/web/themes/contrib/bootstrap/subthemes/*/mix-manifest.json
+
+# files
+html/web/sites/default/files
+html/web/sites/default/files/*
+html/web/sites/default/files/css/
+html/web/sites/default/files/php/
+html/web/sites/default/files/js/
+html/web/sites/default/files/languages/
+html/web/sites/*/services*.yml
+
+#modules
+html/web/modules/contrib/
+
+#core drupal
+html/web/core/
+
+#ENV config file
+.env
+html/.env
+
+#node_modules
+html/node_modules/
+
+#libraries
+html/web/libraries/
+
+#test files
+html/web/sites/simpletest/
+
+html/private/*
+html/tmp/*
+
+#database / .sql
+database/*
+.sql
+
+

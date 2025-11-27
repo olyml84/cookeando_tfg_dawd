@@ -1,0 +1,20 @@
+uuid: 29d74d22-2efa-4722-a676-ac71587f27b6
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_prioridad
+field_name: field_prioridad
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

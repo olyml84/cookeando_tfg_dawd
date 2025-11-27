@@ -1,0 +1,11 @@
+uuid: 3cdce019-2707-472e-9821-6b296a8b68c4
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.logotipos
+id: node.logotipos
+target_entity_type_id: node
+target_bundle: logotipos
+default_langcode: site_default
+language_alterable: false

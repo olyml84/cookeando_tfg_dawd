@@ -1,0 +1,25 @@
+uuid: 7300580f-f046-47e9-a449-9ddc7304ad2f
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:79d06b8d-43e5-403d-b875-00b08dd94312'
+  module:
+    - block_content
+  theme:
+    - bootstrap_sass
+id: bootstrap_sass_copyrightfooter
+theme: bootstrap_sass
+region: footer_first
+weight: -5
+provider: null
+plugin: 'block_content:79d06b8d-43e5-403d-b875-00b08dd94312'
+settings:
+  id: 'block_content:79d06b8d-43e5-403d-b875-00b08dd94312'
+  label: 'Copyright footer'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

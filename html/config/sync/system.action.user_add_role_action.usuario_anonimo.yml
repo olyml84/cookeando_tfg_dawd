@@ -1,0 +1,14 @@
+uuid: 6851702b-5169-4a9f-ba48-e40d52ee7800
+langcode: es
+status: true
+dependencies:
+  config:
+    - user.role.usuario_anonimo
+  module:
+    - user
+id: user_add_role_action.usuario_anonimo
+label: 'Añade el rol Usuario anónimo al(los) usuario(s) seleccionado(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: usuario_anonimo
