@@ -767,6 +767,16 @@ span.field.field--name-title.field--type-string.field--label-hidden {
       margin-left: 40px;
     }
   }
+
+  nav#block-bootstrap-sass-main-menu {
+    padding: 50px;
+    background-color: #f7dcad;
+
+    li.nav-item {
+      margin-top: -25px;
+      border-bottom: 2px solid #7d980f;
+    }
+  }
 }
 
 
@@ -907,6 +917,16 @@ span.field.field--name-title.field--type-string.field--label-hidden {
     img.image-style-rec-cur {
       width: 170%;
       margin-left: 35px;
+    }
+  }
+
+  nav#block-bootstrap-sass-main-menu {
+    padding: 50px;
+    background-color: #f7dcad;
+
+    li.nav-item {
+      margin-top: -25px;
+      border-bottom: 2px solid #7d980f;
     }
   }
 }

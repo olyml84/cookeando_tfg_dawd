@@ -47,10 +47,19 @@
 
   Drupal.behaviors.bootstrap_sass = {
     attach: function(context, settings) {
-
+      $("button.btn-close").on("click",function(){
+        $(".highlighted .alert-wrapper").remove();
+      })
       // Custom code here
       //alert("cargando js")
-
+      $('nav .navbar-toggler').on("click",function(){
+        if( $('.navbar-collapse').hasClass('show')) {
+          $('.navbar-collapse').removeClass('show');
+        }else {
+          $('.navbar-collapse').addClass('show');
+        }
+        
+      })
     }
   };
 

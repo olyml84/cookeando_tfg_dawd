@@ -891,6 +891,15 @@ span.field.field--name-title.field--type-string.field--label-hidden {
   article.node.node--type-cursos.node--promoted.node--view-mode-full.clearfix .field.field--name-field-imagen-principal.field--type-image.field--label-hidden.field__item {
     margin-left: 40px;
   }
+  nav#block-bootstrap-sass-main-menu {
+    padding: 50px;
+    background-color: #f7dcad;
+
+    li.nav-item {
+      margin-top: -25px;
+      border-bottom: 2px solid #7d980f;
+    }
+  }
 }
 /***********************
 *****************************
@@ -996,6 +1005,15 @@ span.field.field--name-title.field--type-string.field--label-hidden {
   .block.block-layout-builder.block-field-blocknodecursosfield-imagen-principal img.image-style-rec-cur {
     width: 170%;
     margin-left: 35px;
+  }
+  nav#block-bootstrap-sass-main-menu {
+    padding: 50px;
+    background-color: #f7dcad;
+
+    li.nav-item {
+      margin-top: -25px;
+      border-bottom: 2px solid #7d980f;
+    }
   }
 }
 /***********************
