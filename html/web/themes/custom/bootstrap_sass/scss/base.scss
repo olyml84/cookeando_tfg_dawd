@@ -1,7 +1,15 @@
 /*Enviado por ---- adminplx*/
 
 
+/***********************
+*****************************
+*****************************(Maquetación general "Desktop")*****************************
+*****************************
+*************************/
+
+
 /*Elementos generales o muy específicos*/
+
 
 em {
   display: none;
@@ -10,7 +18,6 @@ em {
 div#page {
   width: 1300px;
   margin: auto;
-  //background-color: red;
 }
 
 div#block-bootstrap-sass-search-form-wide {
@@ -54,6 +61,7 @@ body {
 
 /*Miga de pan*/
 
+
 ol.breadcrumb {
   margin-left: -25px;
 
@@ -69,7 +77,9 @@ ol.breadcrumb {
   }
 }
 
+
 /*Menú principal*/
+
 
 .nav.navbar-nav {
 
@@ -121,6 +131,7 @@ h3 {
 
 /*Filtros de búsquedas de vistas*/
 
+
 form#views-exposed-form-recetas-block-2,
 form#views-exposed-form-cursos-block-2 {
   background-color: #f7dcad;
@@ -162,7 +173,9 @@ form#views-exposed-form-cursos-block-2 {
   }
 }
 
+
 /*Vistas de recetas y cursos*/
+
 
 .recetas-home,
 .cursos-home,
@@ -233,6 +246,7 @@ form#views-exposed-form-cursos-block-2 {
 
 
 /*Pie de página*/
+
 
 footer.site-footer {
   background-color: #7d980f !important;
@@ -313,6 +327,7 @@ div#block-bootstrap-sass-rrssfooter {
 
 /*Buscador*/
 
+
 button#edit-actions-submit,
 button#edit-submit--2 {
   background-color: #7d980f !important;
@@ -351,7 +366,9 @@ a#edit-help-link {
   border-color: #7d980f;
 }
 
+
 /*Formulario*/
+
 
 form#webform-submission-contact-node-17-add-form {
   width: 1265px;
@@ -364,6 +381,7 @@ form#webform-submission-contact-node-17-add-form {
 
 /*Área privada*/
 
+
 .area-privada {
   width: 50%;
   margin: 0 auto;
@@ -372,6 +390,7 @@ form#webform-submission-contact-node-17-add-form {
 
 
 /*Paginación*/
+
 
 ul.pagination.js-pager__items {
   text-align: center;
@@ -392,6 +411,7 @@ ul.pagination.js-pager__items {
 
 
 /*Detalle de receta*/
+
 
 .clearfix.text-formatted.field.field--name-field-nota.field--type-text-long.field--label-hidden.field__item {
   background-color: #f7dcad;
@@ -491,6 +511,7 @@ span.field.field--name-title.field--type-string.field--label-hidden {
 
 
 /*Detalle de curso*/
+
 
 .cursos-detalle {
   .field.field--name-field-imagenes.field--type-image.field--label-hidden.field__items {

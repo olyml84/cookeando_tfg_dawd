@@ -4,6 +4,7 @@
  * Global utilities.
  *
  */
+//Código general de JS
 (function ($, Drupal) {
   'use strict';
 
@@ -41,24 +42,24 @@
  * Global utilities.
  *
  */
-(function($, Drupal) {
+(function ($, Drupal) {
 
   'use strict';
 
+  //Código para el cierre del mensaje del formulario de contacto
   Drupal.behaviors.bootstrap_sass = {
-    attach: function(context, settings) {
-      $("button.btn-close").on("click",function(){
+    attach: function (context, settings) {
+      $("button.btn-close").on("click", function () {
         $(".highlighted .alert-wrapper").remove();
       })
-      // Custom code here
-      //alert("cargando js")
-      $('nav .navbar-toggler').on("click",function(){
-        if( $('.navbar-collapse').hasClass('show')) {
+      //Código para la funcionalidad del menú-hamburguesa
+      $('nav .navbar-toggler').on("click", function () {
+        if ($('.navbar-collapse').hasClass('show')) {
           $('.navbar-collapse').removeClass('show');
-        }else {
+        } else {
           $('.navbar-collapse').addClass('show');
         }
-        
+
       })
     }
   };
